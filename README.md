@@ -6,14 +6,17 @@ Porject developed at MIT GrandHack Medicine by **team_c_073**:
 - Kavya Bhargava
 - Ignasi Oliver
 
+
+## Test it live:
+**[https://club60plus.herokuapp.com/](https://club60plus.herokuapp.com/)**
+
+
 ## Important considerations:
 This is a very primitive MVP in the sense that the UX flow is done and can be tested -go to Installation-, the DB is designed created but it is not connected, so changes are not saved.
 The following steps to develop is to integrate it to FHIR R4 Patient Resource, so external resources and platform could be implemented into the workflow -such as healthcare provider's systems- and make it escalable. For that, we have set up InterSystems instances on AWS. If you want to take a look, the links are as follow:
 - FHIRAPIDevPortal: [http://3.218.143.59:8003/default/documentation](http://3.218.143.59:8003/default/documentation)
 - IRISPortal: [http://3.218.143.59:9088/csp/sys/%25CSP.Portal.Home.zen](http://3.218.143.59:9088/csp/sys/%25CSP.Portal.Home.zen)
 
-
-## Test it live:
 
 ## Installation
 To install **Club 60+** in your system, make sure [Python](https://www.python.org/downloads/) is installed.
