@@ -8,20 +8,12 @@ Porject developed at MIT GrandHack Medicine by **team_c_073**:
 
 ## Important considerations:
 This is a very primitive MVP in the sense that the UX flow is done and can be tested -go to Installation-, the DB is designed created but it is not connected, so changes are not saved.
-The following steps to develop is to integrate it to FHIR R4 Patient Resource, so external resources and platform could be implemented into the workflow -such as healthcare provider's systems- and make it escalable. For that, we have set up IntraSystems instances on AWS. If you want to take a look, the links are as follow:
+The following steps to develop is to integrate it to FHIR R4 Patient Resource, so external resources and platform could be implemented into the workflow -such as healthcare provider's systems- and make it escalable. For that, we have set up InterSystems instances on AWS. If you want to take a look, the links are as follow:
 - FHIRAPIDevPortal: [http://3.218.143.59:8003/default/documentation](http://3.218.143.59:8003/default/documentation)
 - IRISPortal: [http://3.218.143.59:9088/csp/sys/%25CSP.Portal.Home.zen](http://3.218.143.59:9088/csp/sys/%25CSP.Portal.Home.zen)
 
 
 ## Test it live:
-
-dication and the instructions for administration of the medication to a patient. The resource is called "MedicationRequest" rather than "MedicationPrescription" or "MedicationOrder" to generalize the use across inpatient and outpatient settings, including care plans, etc., and to harmonize with workflow patterns.
-
-version: 1.0
-
-FHIR R4 Patient Resource
-
-Demographics and other administrative information about an ind
 
 ## Installation
 To install **Club 60+** in your system, make sure [Python](https://www.python.org/downloads/) is installed.
