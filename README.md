@@ -25,7 +25,7 @@ To install **Club 60+** in your system, make sure [Python](https://www.python.or
 3. Install the requirements:
     - `pip3 install -r requirements.txt`<br>
 4. Run the application:
-    - `python3 wsgi.py`
+    - `python3 app.py`
 5. Open a web browser and go to [http://localhost:5000](http://localhost:5000).
 
 
